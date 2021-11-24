@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Booking Page</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+</style>
+<script src=""></script>
+<body>
+
 <div class="container">
     <div class="calender">
         <div class = "front">
@@ -69,8 +80,50 @@
         </div>
     </div>
 </div>
+</body>
+
 
     <div class = "back">
     <div class = "info">
-    
+    {% comment %} Student ID, Date, Time, Timeslot etc {% endcomment %}
+        <p class = "info-studentid">
+            studentID: <span> 123456789 </span>
+        </p>
+
+        <p class = "info-Date">
+            Date: <span> Jan 15 </span>
+        </p class>
+
+        <p class = "info-time">
+            Timeslot: <span> 3:00 </span>
+        </p class>
+
+        <p class = "info-facility">
+            Facility: <span> North York Flight</span>
+        </p class>
+
+        </div>
+    </div>
+
+        <div class ="actions">
+            <div class="instructor-dropdown">
+            <button onclick="myFunction()" class="dropbtn">Instructors</button>
+            <div id="myDropdown" class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+
+            <div class="plane-dropdown">
+            <button onclick="myFunction()" class="dropbtn">Planes</button>
+            <div id="myDropdown" class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+
+
+
+    </div>
+
 
