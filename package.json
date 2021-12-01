@@ -17,6 +17,7 @@
   "homepage": "https://github.com/Aaron-Moses/3309-databases#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-session": "^1.17.2",
     "mysql": "^2.18.1"
   },
   "description": ""
